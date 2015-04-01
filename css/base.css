@@ -20,6 +20,11 @@ body {
   border: 1px solid #555;
 }
 
+.no-style-a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #header {
     margin: 1em 2em 1em 1em;
     border-bottom: 1px solid #555;
@@ -36,6 +41,7 @@ body {
     border-radius: 50px;
     margin-right: 2em;
     vertical-align: super;
+    display: inline-block;
 }
 
 #is-a {
