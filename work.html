@@ -4,7 +4,8 @@ title: "Work"
 ---
 
 <div id="portfolio">
-  {% for work in site.collections.works.docs %}
+  {% assign works = site.collections.works.docs | sort: 'date' | reverse%}
+  {% for work in works %}
   <div class="portfolio-item">
     <div class="preview">
       <a href="{{ work.link }}"><img src="{{ work.preview }}" /></a>
