@@ -174,13 +174,13 @@ span.author::before {
     width: 320px;
 }
 
-img.me {
-    width: 320px;
-    border-radius: 120px;
-}
-
 #about {
     display: flex;     flex-direction: row;     align-items: center;     justify-content: center;     margin: 0 0 4em 0;
+}
+
+img.me {
+    width: 320px;
+    border-radius: 160px;
 }
 
 ol {
