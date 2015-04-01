@@ -126,20 +126,29 @@ span.author::before {
 }
 
 .preview img {
-    width: 320px;
+    width: inherit;
 }
 
 .preview {
-    width: 150%;
+    width: 320px;
 }
 
 .portfolio-item {
     display: flex;
-    flex-direction: row;   align-content: center;   align-items: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 4em 0;
 }
 
 .preview a {
+    width: inherit;
     display: inline-block;
+}
+
+.metadata {
+    width: auto;
+    margin: 0 0 0 3em;
 }
 
 .metadata .title {
@@ -162,4 +171,5 @@ span.author::before {
 
 .metadata .description {
     margin: 1em 0 0 0;
+    width: 320px;
 }

@@ -12,6 +12,6 @@ description: "A children's book written an illustrated for 1st and 2nd graders. 
 # [{{ page.title }}]({{ page.link }})
 *{{ page.date | date: "%B %e, %Y" }}*
 
-[![AndrewVaAlDentista Image]({{ page.preview }} =x320)]({{ page.link }})
+[![Preview]({{ page.preview }} =x320)]({{ page.link }})
 
 {{ page.description }}
