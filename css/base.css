@@ -1,0 +1,115 @@
+html {
+  font: 17px/1.4 'Open Sans',sans-serif;
+}
+
+body {
+  font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+  color: rgba(0,0,0,0.8);
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+body {
+  border: 1px solid #555;
+}
+
+#header {
+    margin: 1em 2em 1em 1em;
+    border-bottom: 1px solid #555;
+    padding-bottom: 1em;
+}
+
+#header > div {
+  display: inline-block;
+}
+
+#logo {
+    border: 1px solid #555;
+    padding: 25px;
+    border-radius: 50px;
+    margin-right: 2em;
+    vertical-align: super;
+}
+
+#is-a {
+}
+
+#is-a .what {
+  width: auto;
+  display: inline-block;
+}
+
+#is-a .what span {
+  margin-left: 0.3em;
+}
+
+#is-a .what span:nth-child(2) {
+  border-bottom: 2px solid #aaa;
+}
+
+#is-a .what span:nth-child(2)::after {
+  content: ".";
+}
+
+
+#sections {
+    float: right;
+    margin-top: 2em;
+}
+
+#sections > div {
+    display: inline-block;
+    margin-left: 2em;
+}
+
+#sections a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#content {
+    margin: 4em 2em 1em 1em;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img.cover-photo {
+    width: 640px;
+}
+
+.quote {
+    margin: 2em 0 1em 0;
+    padding-left: 1em;
+    border-left: 3px solid #EEE;
+}
+
+span.author {
+    margin-left: 4em;
+    display: block;
+}
+
+span.author::before {
+    content: "- ";
+}
+
+.quote:not(.author)::before {}
+
+.quote > span:not(.author)::before {
+    content: '"';
+}
+
+.quote > span:not(.author)::after {
+    content: '"';
+}

@@ -7,13 +7,17 @@
   <title>{{ page.title }}</title>
   <meta name="author" content="Alexandra Alfaro" />
   <meta name="description" content="Art, writing and contact for Alexandra Alfaro" />
+  <link rel="stylesheet" href="/css/base.css" type="text/css" />
 </head>
 <body>
 
 <div id="header">
-  <a href="/">
-    <span>Home</span>
-  </a>
+  <div id="logo">
+    <span>AA</span>
+  </div>
+  <div id="is-a">
+    <span>Alexandra is</span><span class="what"><span>an</span><span>artist</span>
+  </div>
 
   <div id="sections">
     <div><a href="/work">work</a></div>
@@ -24,7 +28,11 @@
 
 </div>
 
+<div id="content">
 {{ content }}
+</div>
+
+<script src="js/isawhat.js"></script>
 
 </body>
 </html>
