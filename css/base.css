@@ -16,13 +16,12 @@ body {
   line-height: 1.4;
 }
 
-body {
-  border: 1px solid #555;
+a {
+  border-bottom: 1px solid #ccc;
 }
 
-.no-style-a {
-    text-decoration: none;
-    color: inherit;
+body {
+  border: 1px solid #555;
 }
 
 #header {
@@ -42,6 +41,9 @@ body {
     margin-right: 2em;
     vertical-align: super;
     display: inline-block;
+
+    text-decoration: none;
+    color: inherit;
 }
 
 #is-a {
@@ -82,6 +84,9 @@ body {
 
 #content {
     margin: 4em 2em 1em 1em;
+}
+
+#index {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -118,4 +123,43 @@ span.author::before {
 
 .quote > span:not(.author)::after {
     content: '"';
+}
+
+.preview img {
+    width: 320px;
+}
+
+.preview {
+    width: 150%;
+}
+
+.portfolio-item {
+    display: flex;
+    flex-direction: row;   align-content: center;   align-items: center;
+}
+
+.preview a {
+    display: inline-block;
+}
+
+.metadata .title {
+    font-size: 1.5em;
+}
+
+.metadata .title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.metadata .date {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.metadata span {
+    display: block;
+}
+
+.metadata .description {
+    margin: 1em 0 0 0;
 }

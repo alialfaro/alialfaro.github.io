@@ -1,0 +1,19 @@
+---
+layout: layout
+title: "Work"
+---
+
+<div id="portfolio">
+  {% for work in site.collections.works.docs %}
+  <div class="portfolio-item">
+    <div class="preview">
+      <a href="{{ work.link }}"><img src="{{ work.preview }}" /></a>
+    </div>
+    <div class="metadata">
+      <span class="title"><a href="{{ work.link }}">{{ work.title }}</a></span>
+      <span class="date">{{ work.date | date: "%B %e, %Y" }}</span>
+      <span class="description">{{work.description}}</span>
+    </div>
+  </div>
+  {% endfor %}
+</div>
