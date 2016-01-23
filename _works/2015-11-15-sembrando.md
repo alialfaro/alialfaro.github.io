@@ -6,7 +6,7 @@ categories: [website, sembrando, mentor, mentee, students, mentorship, latino, f
 permalink: '/work/sembrando'
 preview: '/static/sembrando/preview.gif'
 link: 'https://students.washington.edu/alial/seed/'
-description: ""
+description: "Mentorship program targeted at first-generation, latino, high school students in Washington state"
 ---
 
 # [{{ page.title }}]({{ page.link }})

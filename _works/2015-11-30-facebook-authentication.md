@@ -6,7 +6,7 @@ categories: [website, sembrando, facebook, login, authentication, auth, sdk, api
 permalink: '/work/facebook-auth-sembrando'
 preview: '/static/sembrando/facebook-auth.png'
 link: '/static/sembrando/facebook-auth.png'
-description: ""
+description: "One-step button to join Sembrando platform"
 ---
 
 # [{{ page.title }}]({{ page.link }})
