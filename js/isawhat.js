@@ -5,18 +5,14 @@
 
   var vowels = ["a", "e", "i", "o", "u"];
   var whats = [
-    "artist",
-    "reader",
-    "writer",
-    "muso",
-    "tumblr",
-    "photographer",
-    "redditor",
-    "city girl",
-    "chef",
+    "designer",
     "Husky",
-    "independent woman",
-    "individual",
+    "researcher",
+    "experimenter",
+    "interviewer",
+    "Seattleite",
+    "artist",
+    "redditor",
   ];
 
   var i;
