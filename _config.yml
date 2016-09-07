@@ -1,4 +1,4 @@
-markdown: rdiscount
+markdown: kramdown
 highlighter: pygments
 lsi: false #set to true to use site.related_posts
 rdiscount:
