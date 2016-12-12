@@ -1,0 +1,145 @@
+---
+layout: layout
+title: "Alexandra Alfaro"
+---
+
+<style>
+
+#content {
+  margin: 0 25%;
+}
+
+#content p {
+  text-align: justify;
+}
+
+</style>
+
+# Bridges
+
+Social Mobile Application - Bridging the connection between social media platforms and the human connection
+
+## <center>Project Overview:</center>
+
+
+
+## The Problem
+
+Present Social Media Outlets encourage an environment in which users present a false image, harbor negative emotions, and foster a false connection. While the virtual world has afforded users the opportunity to connect with old friends, make new friends, and keep in touch with current friends; there is something missing. The human aspect. Through my project, I define the ‘human aspect’ as the ability to connect with others in a vulnerable way. Because of the way social media platforms are set up, users feel the need to present a well-crafted image with lack of self-exploration.
+
+## The Solution
+
+A SmartPhone Application that works on the foundation of users giving and taking stories. Stories are defined as snippets of life experiences that users upload to the platform through the use of a live camera, in which they can record themselves and send to an anonymous user based.
+
+Anonymity being an important and viable feature of the platform, because with it users are allowed the opportunity to not tie stories to their identity which often leads to a well curated presentable image.
+
+## Inspiration
+
+- Community Voice: Share Your Story
+
+An interactive installation showcased at 'La Plaza de Cultura Y Artes' in Los Angeles. Target audience being Mexican-American visitors to share their story of self-identity and cultural-identity in a video-recording booth. The booth highlights themes and ask specific questions to encourage storytelling. The inspiration that I am taking away from this project is the question-asking aspect. Asking people to tell their 'story' is a complex and open-ended question which is why questions and themes come in handy. It's a way for viewers to not only consume stories, but also become a part of the installation itself. The interactivity and community building aspect is an attribute I want to contain in my project.
+
+- Subway Stories
+
+At first glance, "Subway Stories" created by Alon Chitayat & Jeff Ong interested me because it was built with Arduino, a tool I have worked with in the past. The simulator explores the inner-lives of commuters in New York City. It does this by appearing "interactive", but is actually a simulation. What I mean is that the set-up allows you to peer in the lives of illustrated characters and the user is able to hear their "inner thoughts" while acting as if they are peering into a real-life scene of a subway ride.
+The inspiration I took from this project is the "inner thought" aspect of it. A subway ride is a great time to share a story with fellow passengers, but most of the time people are inside their heads, as most individuals are as they go through their daily routines. Through my project, I hope to get these "inner thoughts" transferred from individual to individual through the use of peer-to-peer story-sharing. The way in which my project will differ is that it’s main function is the peer to peer sharing aspect, as opposed to “Subway Stories” in which users consume, and shy away from creation.
+
+- Siren: Mobile Dating Application
+
+Siren is a mobile dating application that was built with feminist values in mind. What this looks like as a  design is that it holds its values as part of decision decisions. Instead of judging people based merely on looks and being able to swipe left and right, they instead answer questions that give users a peer inside how they think and act. The goal of the dating app is to eliminate objectifying woman. Siren inspired me by exemplifying ways in which to afford users the opportunity to create more meaningful connections
+
+
+## My Role:
+
+User Research, User Interviews WireFrames, Low-Fidelity Designs created through sketch, React Native Development, User Testing
+
+## Tools:
+
+- Paper and Pen (Low-fidelity Design and Flow Interaction)
+- Sketch (Design)
+- Invision (Interaction)
+- React Native (Development - Framework)
+- XCode (Development - iOS)
+- Atom (Development - Editor)
+
+## Paper and Pen
+[<img src="/images/bridges/resized/low-fi-design.png">](/images/bridges/originals/low-fi-design.png)
+
+[<img src="/images/bridges/resized/refined_prototype.jpg">](/images/bridges/originals/refined_prototype.jpg)
+
+## Prototype Supported by Invision, designed through Sketch:
+
+
+<iframe width="438" height="930" src="//invis.io/VN9OU92CX" frameborder="0" allowfullscreen></iframe>
+
+## Discovery
+[<img src="/images/bridges/resized/interview-protocol.png">](/images/bridges/originals/interview-protocol.png)
+
+Before even diving into the features and overall UX of the product, I conducted some user interviews that provided insight that I applied into my project. The interviews consisted of users from ages ranging from 16-24, smart phone users, and located in Washington State. Interviews were conducted to gain a better understanding of the problem.
+These are some of the key takeaways from those interviews:
+
+
+
+## Key Insights
+Users are constantly filtering what they post and how it portrays them; spam accounts are created to combat this problem
+<br>
+
+_**Note**: Spam accounts are defined as those accounts that are used to upload content they would not feel comfortable sharing with their entire following_  
+
+Anonymity is an important feature that needs to be preserved. Without anonymity, users will not feel comfortable sharing their personal stories. Anonymity gives user who might feel uncomfortable sharing, a medium that isn't tied to their real life identity without fear of backlash.
+
+Users consume more than they created
+
+When they first join a social media platform, there is a pattern in the way in which they create but overtime there is an obvious drop in creation.
+
+Although users state that they think social media platforms are a 'waste of time' and often times are left feeling 'empty' and as if they haven't gotten anything from the experience, they continue to log on. 4 out of 5 users admit to deleting social media platforms at least 2-3 times in the past year but quickly rejoin. The insight I took away from these reported experiences was that consuming pictures, stories, and snippets from virtual friends presents the disconnect my project attempts to stay away from. From this insight, I asked myself how I could better create an experience that inspires users to not only consume, but to create just as much. From this the idea of 'giving and taking' was created.
+
+Another pattern that emerged from user interviews was the issue of identity. There was a clear connection between connection of identity and how much users posted. It was as if as soon as they created a 'persona' for themselves they had to continue to build onto that persona. While users virtual identity are very much so tied to their 'real' feelings, there is a definite disconnect between the identity they create online and who they really are in real life. Much like the game of SIMS, users create an identity and play along with it.
+
+
+## Key Experience Principles
+1. Anonymity: Inspires users to share stories without need for reservation of being linked to personal identity.
+2. Community Monitorship: In order for product to work without running into issues like harassment and cyberbullying that anonymity has shown to foster, community will vote against content that is deemed inappropriate. In other words, a jury system. In the instance of a user receiving content that does not follow the platforms' values, user will 'report' story which will then be sent out to three 'top users', defined as users who upload and receive the most stories. Top users will then rate it as inappropriate or not; based on feedback, user will be blocked from website or allowed to continue to be a member.  
+Give and Take Community: Platform is ran by uploaded stories, without it, platform would cease to exist. Because of this, it's important for platform to be centered around a give and take community.
+3. Recording: User records audio/video footage of themselves answering the question prompt.
+5. Question Prompts: A bank of questions that users will be able to pick from a category. For example, there are 4 categories such as: memories, dreams, life, and tragedies. Users will pick from a category which will then lead them to a bank of questions. From these questions, they pick one and record themselves through a camera function. The story is then sent to a random user that recently submitted a story.
+
+## iOS Prototype
+The best way to showcase and test the constraints and abilities of the product was to build a beta version.
+The application can be sent out to specific email addresses to be installed with a link. The finished application will be submitted to the Apple app store. For an invite, please contact [alial@uw.edu](mailto:alial@uw.edu).
+
+At the beginning of the quarter, I had expressed an interest in exploring the development of mobile applications. Because of this, I researched possible ways to build an app. React Native seemed like a feasible way to build a functional prototype with limited resources and time. React native afforded me the ability to create native applications with declarative react language, without any previous knowledge of IOS development.
+
+The prototype has one main functionality: camera capturing, in addition to some basic transitions between screens.
+
+As a student in the interactive media design program, I find it important to be able to design while being aware of the work it takes to build an application. This being important, because while it's especially fun to think of out of the box design solutions, it's incredibly important to be aware of what's possible given time constraints and framework.
+
+### Sign up
+<video controls autoplay muted src="/images/bridges/video/sign-up.mov"></video>
+
+### Tutorial
+<video controls autoplay muted src="/images/bridges/video/tutorial.mov"></video>
+
+## Reflection
+
+What did your design process uncover?
+- Question Prompt: My initial prototype presented the user with a way to share stories but some of the users I conducted research on, suggested that they wouldn't know what to share. The solution I presented to this issue was a prompt. The prompt presented questions which would hopefully encourage the user to contribute their stories.
+- Flow: After watching users interact with the prototype, I quickly discovered that the flow didn't direct the user the way I wanted it to. As the person who created the product, I had a familiarity with the screens that the user didn't have so seeing their fresh perspective allowed me to uncover ways in which the application was unclear.
+- Presentation: When I first began the project, the project idea was at its inception.  I was aware of the problem and even the platform I wanted to work within, but I had no idea how I would go about solving the problem. By looking at inspirations such as those of PostSecret, Experience Project, and Siren I was able to see a pattern
+
+## What would I do better?
+
+If I had more time and resources, I would take a week to reflect on the design choices I made and then go back and rebuild the prototype. I'd also get more rounds of user testing, because as I test and create iterations, it's apparent that the benefits of receiving feedback is incredibly valuable.
+
+What I've learned through interactive media design is that a design is never finished, it's just due. With this being said, that saying has never been more true. While I am proud of the work I was able to accomplish given the time constraints and resources. My original idea has informed me of ways that I'd like to pursue this idea in the future. I see a completely different vision for Bridges now, one that wasn't even my vision but rather one that was constructed by user feedback and research.
+
+If I were to move forward with this project, I would create high fidelity designs that incorporate the changes discovered in the latest phase of research and testing.
+
+[comment]: <> (<br /> will insert a line giving some space)
+<br />
+
+[comment]: <> (<hr /> will insert a line breaking content apart)
+<hr />
+
+[comment]: <> (<br /> will insert a line giving some space)
+<br />
