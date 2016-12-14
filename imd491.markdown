@@ -1,6 +1,6 @@
 ---
 layout: layout
-title: "Alexandra Alfaro"
+title: "IMD 491"
 ---
 
 <style>
